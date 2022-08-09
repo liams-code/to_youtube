@@ -7,9 +7,9 @@ RapidAPI : https://rapidapi.com/developer/new
 네이버 : https://developers.naver.com/apps/#/register?api=ppg_n2mt
 '''
 
-rapidapi_key = 'YOUR_API_KEY_HERE'
-naver_client_id = 'YOUR_API_KEY_HERE'
-naver_client_secret = 'YOUR_API_KEY_HERE'
+rapidapi_key = '999999999999999'
+naver_client_id = '999999999999999'
+naver_client_secret = '9999999999999'
 
 import requests
 from pprint import pprint
@@ -37,7 +37,7 @@ Attention Is All You Need
 url = "https://tldrthis.p.rapidapi.com/v1/model/abstractive/summarize-url/"
 
 payload = {
-    "url": "https://arxiv.org/pdf/1706.03762.pdf", # 주소
+    "url": "https://arxiv.org/abs/2208.03360.pdf", # 내가 논문 번역 원하는 주소
     "min_length": 100, # 최소 길이
     "max_length": 300, # 최대 길이
     "is_detailed": False # 한 문장으로 반환할 것인지 여부
